@@ -1,0 +1,20 @@
+:root {
+  --vp-c-brand-1: #2458b8;
+  --vp-c-brand-2: #3269d1;
+  --vp-c-brand-3: #4178e0;
+  --vp-c-brand-soft: rgba(36, 88, 184, .10);
+  --vp-font-family-base: 'Inter', 'Segoe UI', 'Microsoft YaHei', sans-serif;
+  --vp-font-family-mono: 'Cascadia Code', Consolas, monospace;
+}
+.dark { --vp-c-brand-1: #91b6ff; --vp-c-brand-2: #76a5ff; --vp-c-brand-3: #598fea; }
+.VPNavBarTitle .title { font-weight: 750; letter-spacing: .025em; }
+.vp-doc h1 { line-height: 1.5; font-size: 2rem; letter-spacing: -.025em; border-left: 4px solid var(--vp-c-brand-1); padding-left: 20px; }
+.vp-doc p, .vp-doc li { line-height: 1.95; }
+.vp-doc img { max-width: 100%; height: auto; margin: 22px auto; border: 1px solid var(--vp-c-divider); border-radius: 6px; }
+.vp-doc h2 { margin-top: 52px; }
+.vp-doc h4, .vp-doc h5, .vp-doc h6 { font-size: 1rem; margin: 28px 0 14px; }
+.vp-doc table { font-size: 14px; }
+.vp-doc div[class*='language-'] { border: 1px solid var(--vp-c-divider); }
+.VPSidebarItem .text, .VPDocAsideOutline .outline-link { font-size: 14px; }
+.vp-doc a:focus-visible { outline: 2px solid var(--vp-c-brand-1); outline-offset: 4px; }
+@media (max-width: 640px) { .vp-doc h1 { font-size: 1.65rem; padding-left: 14px; } }

@@ -1,0 +1,7 @@
+node_modules/
+docs/.vitepress/cache/
+.sites-runtime/
+.env*
+dist/
+.openai/
+docs/.vitepress/.temp/
