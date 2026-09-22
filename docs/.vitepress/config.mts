@@ -3,8 +3,8 @@ import { defineConfig } from 'vitepress'
 const base = process.env.SITE_BASE || '/'
 export default defineConfig({
   lang: 'zh-CN',
-  title: '程序设计课堂',
-  description: '程序设计课堂知识库：开发环境配置、课堂讲义与 C/C++ 示例源码。',
+  title: 'ECNUCS 2026 程序设计',
+  description: 'ECNUCS 2026 程序设计课堂知识库：开发环境配置、课堂讲义与 C/C++ 示例源码。',
   base,
   outDir: '../dist',
   srcExclude: ['public/**'],
@@ -28,11 +28,9 @@ export default defineConfig({
     }
   },
   themeConfig: {
-    siteTitle: '程序设计课堂',
-    nav: [{ text: '课堂讲义', link: '/' }, { text: '源码资源', link: '/resources' }],
+    siteTitle: 'ECNUCS 2026 程序设计',
     sidebar: [{ text: '课堂知识库', items: [
-      { text: '01 · 编程第一步', link: '/' },
-      { text: '示例源码与下载', link: '/resources' }
+      { text: '01 · 编程第一步', link: '/' }
     ] }],
     outline: { level: [2, 3], label: '本页目录' },
     search: { provider: 'local', options: { locales: { root: { translations: {

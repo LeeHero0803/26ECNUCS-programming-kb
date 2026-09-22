@@ -1,4 +1,4 @@
-# 程序设计课堂知识库
+# ECNUCS 2026 程序设计知识库
 
 使用开源文档框架 [VitePress](https://vitepress.dev/zh/) 1.6.4 构建，输出纯静态网站。无需数据库或后端；字体、配图、搜索索引与脚本随网站托管，不依赖第三方 CDN。
 
@@ -16,7 +16,6 @@ npm run docs:dev
 ## 修改与增加文章
 
 - `docs/index.md`：首篇教程，首页直接显示正文。
-- `docs/resources.md`：资源下载页。
 - `docs/img/`：文章配图，已转为 WebP，44 张约 4.39 MB。
 - `docs/public/downloads/`：两份原始 C 源码和未经修改的原始 Markdown。
 - `docs/.vitepress/config.mts`：站点名称、导航、目录和中文本地搜索。
