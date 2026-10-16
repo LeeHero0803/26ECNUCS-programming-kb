@@ -31,7 +31,7 @@ export default defineConfig({
     siteTitle: 'ECNUCS 2026 程序设计',
     sidebar: [{ text: '课堂知识库', items: [
       { text: '01 · 编程第一步', link: '/' },
-      { text: '02 · 有种宝典：基础 IO 篇（一）', link: '/basic-io-1' }
+      { text: '02 · 有种宝典：基础 IO', link: '/basic-io-1' }
     ] }],
     outline: { level: [2, 3], label: '本页目录' },
     search: { provider: 'local', options: { locales: { root: { translations: {
