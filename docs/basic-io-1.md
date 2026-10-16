@@ -168,7 +168,7 @@ for (int i = 0; i < r; ++i) {
 
 ``` cpp
 int x;
-while (scanf("%d", &x) !+ EOF) {
+while (scanf("%d", &x) != EOF) {
     /* 处理 x */
 }
 // scanf 会返回成功读取到的变量数目
@@ -180,7 +180,7 @@ while (cin >> x) {
 }
 ```
 
-windows 中的 EOF 就是 **ctrl + z**
+EOF 是输入结束状态；Windows 控制台可以使用 **Ctrl+Z，再回车**表示 EOF 结束输入。
 
 ## 3. 数据数量不定
 
@@ -397,7 +397,7 @@ cin >> hex >> x; // hex 会改变后续整数输入的进制状态。若之后�
 - %n 不计入 scanf 返回值
 
 ```c
-int used;
+int x, used;
 sscanf("123 45","%d%n", &x, &used);
 // 读到123，used=3；返回值=1，不是2
 ```
